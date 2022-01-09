@@ -1,0 +1,487 @@
+/* google fonts import poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+/* navbar css */
+.navbar{
+    height:136px;
+}
+.brand{
+background: #D8D8D8;
+mix-blend-mode: normal;
+height: 52px;
+width: 209.63px;
+opacity: 0.24;
+}
+.brand h4{
+font-family: Poppins !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 15px !important;
+line-height: 22px !important;
+/* identical to box height */
+color: #FFFFFF !Important;
+}
+a.nav-link {
+    font-family: Poppins  !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px !important;
+    line-height: 21px;
+    color: #FFFFFF !important;
+    text-transform:capitalize;
+    margin:0px 25px;
+}
+.contact-btn{
+border: 1px solid #FFFFFF;
+border-radius: 20px;
+height: 40px;
+width:108px;
+}
+/* navbar css end */
+/* hero section design */
+.header-section{
+    background-image: url('../images/hero.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-tagline h5{
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 19px;
+line-height: 28px;
+/* identical to box height */
+letter-spacing: 4.9px;
+color: #956A1F;
+text-align: left;
+}
+.header-heading{
+    width: 100%;
+    max-width:529px;
+}
+.header-heading h4{
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 76px;
+letter-spacing: 1px;
+/* or 152% */
+color: #FFFFFF;
+text-align: left;
+}
+.header-para{
+    width: 100%;
+    max-width: 549px;
+}
+.header-para p{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: 0.8px;
+/* or 156% */
+color: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.79;
+text-align: left;
+}
+.header-btn{
+    background:#956A1F;
+    border-radius: 28px;
+    width: 208px;
+    height: 56px;
+    border:none;
+    align-items: flex-start;
+    display: flex;
+}
+.header-area {
+    padding: 70px;
+}
+/* hero section end */
+/* navbar divider */
+.navbar-divider{
+mix-blend-mode: normal;
+opacity: 0.24;
+border: 1px solid #FFFFFF;
+}
+/* our mission css */
+.overlay-bg{
+    background-image: url('../images/mission-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+.mission-title h4{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 44px;
+    /* or 147% */
+    color: #1D2625;
+    }
+.mission-section{
+width: 100%;
+max-width: 904px;
+position: absolute;
+margin-top: -130px;
+background: #FFFFFF;
+box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.195202);
+border-radius: 28px;
+}
+.mission-col{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.mission-row{
+    padding: 40px 25px !important;
+}
+.border-end{
+    border-right: 1px solid #979797 !important;
+}
+.mission-title{
+    width:100%;
+    max-width:177px;
+}
+.mission-content{
+    width:100%;
+    max-width:237px;
+}
+.ethos-content{
+    width:100%;
+    max-width:299px;
+}
+.mission-divider{
+    border-right: 1px solid #979797;
+}
+.mission-content p,.ethos-content p,.wedo-content p{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+color: #1D2625;
+}
+.text-mission{
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 2px;
+color: #69634E;
+}
+.text-ethos{
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 2px;
+color: #AA6340;
+}
+/* our mission css end */
+/* Meet Barbarian css */
+.meet-barbarian h4{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height, or 122% */
+color: #1D2625;
+}
+.meet-barbarian{
+    padding-top:180px;
+}
+#meet-barbarian{
+background:#F1EDEB;
+}
+.profile-col{
+    height: 168px;
+    width: 168px !important;
+    background: #69634E;
+    margin: 10px 5px;
+}
+.profile-section{
+    margin: 80px;
+}
+/* meet abrbarian css end */
+/* what we do section css */
+#we-do{
+    background-image: url('../images/services-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 10px !important;
+}
+.wedo-section{
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #AA6340;
+    box-sizing: border-box;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 28px;
+    }
+.infra-wedo-section{
+width:100%;
+background: #FFFFFF;
+border: 1px solid #3C6E71;
+box-sizing: border-box;
+box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.195202);
+border-radius: 28px;
+}
+.wedo-row{
+    padding: 40px 25px !important;
+}
+.wedo-col{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.we-do h4 ,.contact-details h4{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height, or 122% */
+color: #1D2625;
+}
+.wedo-description{
+    width: 100%;
+    max-width:598px;
+}
+.wedo-description p{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 33px;
+/* or 165% */
+color: #1D2625;
+mix-blend-mode: normal;
+opacity: 0.79;
+}
+.wedo-title h4{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 39px;
+/* or 130% */
+color: #1D2625;
+}
+.we-do-title h5{
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+letter-spacing: 3px;
+color: #AA6340;
+}
+.infra-title{
+    color: #3C6E71 !important;
+}
+.se-all{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+color: rgba(29, 38, 37, 0.579422);
+}
+/* what we do css end */
+/* Our Process css */
+#our-process{
+    background-image: url('../images/our-process.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.our-process{
+    padding-top:70px;
+    padding-bottom:90px;
+}
+.our-process h4{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height, or 122% */
+color: #FFFFFF;
+}
+.our-process-content p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.79;
+}
+.process-graphic{
+    height:504px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    background: #D8D8D8;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+    border: 1px solid #979797;
+    box-sizing: border-box;
+}
+.process-graphic p{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+color: #1D2625  !important;
+}
+/* end of our Process css */
+/* cta */
+#cta{
+    background-image: url('../images/cta-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cta-text{
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 44px;
+line-height: 66px;
+text-align: center;
+color: #FFFFFF;
+
+}
+.cta-text{
+    width:100%;
+    max-width:712px;
+}
+/* contact css */
+#contact{
+    background:#f2f2f2;
+}
+.contact-section{
+    padding-top: 101px;
+    padding-bottom: 83px;
+    padding-left: 35px;
+}
+.contact-details p{
+width: 100%;  
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 33px;
+/* or 165% */
+color: #1D2625  !important;
+mix-blend-mode: normal;
+opacity: 0.79;
+}
+.mail{
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+color: #1D2625 !important;
+}
+.form-control{
+    background: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid #1D2625 !important;
+    border-radius: 0px !important;
+}
+textarea#message {
+    border: 1px solid #1D2625 !important;
+    border-radius:12px !important;
+}
+.form-control:focus{
+    border-bottom:1px solid #956A1F !important;
+    box-shadow: none !important;
+   
+}
+.submit-btn{
+    background:#956A1F;
+    border-radius: 28px !important;
+    width: 124px;
+    padding: 15px 35px !important;
+    height: 56px;
+    border:none;
+    align-items: flex-start;
+    display: flex;
+    color:#fff;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px !important;
+    line-height: 22px;
+}
+/* contact css end */
+/* Footer css */
+.footer{
+    background: url(../images/footer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:336px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
+
+
+/* mobile media queries */
+@media (max-width:768px) {
+    .header-area {
+        padding: 35px;
+    }
+    div#Mission {
+        border-bottom: 0px;
+    }
+    .meet-barbarian {
+        padding-top: 284px;
+    }
+    .mission-title {
+        text-align: center;
+        width: 100% !important;
+        max-width: 100%;
+    }
+    .profile-section {
+        margin: 40px;
+    }
+    .profile-col {
+        margin: 10px 10px;
+    }
+    .border-end{
+        border-right: 0px !important;
+        border-bottom: 1px solid #979797;
+    }
+    .cta-text {
+        font-size: 24px;
+        line-height: 33px;
+    }
+    .contact-section {
+       padding: 50px 20px;
+    }
+    form.contact-form {
+        margin-top: 20px;
+    }
+}

@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div>
-            
+        <div className='col-12'>
+            {/* <p className='text-center text-white'>Footer</p> */}
         </div>
     )
 }
