@@ -8,7 +8,7 @@ const OurMission = () => {
         <div className="container d-flex justify-content-center">
             <div className="mission-section">
                 <div className="row mission-row">
-                    <div className="col-md-4 col-12 mission-col border-end">
+                    <div className="col-md-3 col-12 mission-col border-end">
                         <div className="mission-container">
                             <div className="mission-title">
                              <h4 className="text-start">Our <b>Mission & Ethos</b></h4>
@@ -25,7 +25,7 @@ const OurMission = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-6 mission-col" id="Ethos">
+                    <div className="col-md-5 col-6 mission-col" id="Ethos">
                         <div className="mission-container mt-3">
                             <div className="mission-image-title d-flex">
                             <img src={Ethos} className="me-3"/><h5 className="text-ethos mt-1">Ethos</h5>

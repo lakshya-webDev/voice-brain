@@ -1,5 +1,5 @@
-/* google fonts import poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins');
+/* google fonts import Poppins,Qartella */
+
 /* navbar css */
 .navbar{
     height:136px;
@@ -12,18 +12,14 @@ width: 209.63px;
 opacity: 0.24;
 }
 .brand h4{
-font-family: Poppins !important;
-font-style: normal !important;
-font-weight: normal !important;
+font-family: 'Poppins-Regular';
 font-size: 15px !important;
 line-height: 22px !important;
 /* identical to box height */
 color: #FFFFFF !Important;
 }
 a.nav-link {
-    font-family: Poppins  !important;
-    font-style: normal;
-    font-weight: normal;
+    font-family: 'Poppins-Regular'  !important;
     font-size: 14px !important;
     line-height: 21px;
     color: #FFFFFF !important;
@@ -36,6 +32,9 @@ border-radius: 20px;
 height: 40px;
 width:108px;
 }
+b{
+    font-family: 'Poppins-SemiBold';
+}
 /* navbar css end */
 /* hero section design */
 .header-section{
@@ -45,9 +44,7 @@ width:108px;
     background-size: cover;
 }
 .header-tagline h5{
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
+font-family: 'Poppins-SemiBold';
 font-size: 19px;
 line-height: 28px;
 /* identical to box height */
@@ -60,9 +57,7 @@ text-align: left;
     max-width:529px;
 }
 .header-heading h4{
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
+font-family: 'Poppins-SemiBold';
 font-size: 50px;
 line-height: 76px;
 letter-spacing: 1px;
@@ -75,9 +70,7 @@ text-align: left;
     max-width: 549px;
 }
 .header-para p{
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
+font-family: 'Poppins-Medium';
 font-size: 18px;
 line-height: 28px;
 letter-spacing: 0.8px;
@@ -115,9 +108,7 @@ border: 1px solid #FFFFFF;
     height: 200px;
 }
 .mission-title h4{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
+    font-family: 'Poppins-Regular';
     font-size: 30px;
     line-height: 44px;
     /* or 147% */
@@ -141,11 +132,11 @@ border-radius: 28px;
     padding: 40px 25px !important;
 }
 .border-end{
-    border-right: 1px solid #979797 !important;
+    border-right: 1px solid #979797;
 }
 .mission-title{
     width:100%;
-    max-width:177px;
+    max-width:178px;
 }
 .mission-content{
     width:100%;
@@ -159,17 +150,13 @@ border-radius: 28px;
     border-right: 1px solid #979797;
 }
 .mission-content p,.ethos-content p,.wedo-content p{
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
+font-family: 'Poppins-Regular';
 font-size: 14px;
 line-height: 21px;
 color: #1D2625;
 }
 .text-mission{
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
+font-family: 'Poppins-SemiBold';
 font-size: 12px;
 line-height: 18px;
 /* identical to box height */
@@ -177,9 +164,7 @@ letter-spacing: 2px;
 color: #69634E;
 }
 .text-ethos{
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
+font-family: 'Poppins-SemiBold';
 font-size: 12px;
 line-height: 18px;
 /* identical to box height */
@@ -189,9 +174,7 @@ color: #AA6340;
 /* our mission css end */
 /* Meet Barbarian css */
 .meet-barbarian h4{
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
+font-family: 'Poppins-Regular';
 font-size: 36px;
 line-height: 44px;
 /* identical to box height, or 122% */
@@ -246,9 +229,7 @@ border-radius: 28px;
     align-items: center;
 }
 .we-do h4 ,.contact-details h4{
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
+font-family: 'Poppins-Regular';
 font-size: 36px;
 line-height: 44px;
 /* identical to box height, or 122% */
@@ -259,9 +240,7 @@ color: #1D2625;
     max-width:598px;
 }
 .wedo-description p{
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
+font-family: 'Poppins-Regular';
 font-size: 20px;
 line-height: 33px;
 /* or 165% */
@@ -270,31 +249,26 @@ mix-blend-mode: normal;
 opacity: 0.79;
 }
 .wedo-title h4{
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
+font-family: 'Poppins-Regular';
 font-size: 30px;
 line-height: 39px;
 /* or 130% */
 color: #1D2625;
 }
 .we-do-title h5{
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
+font-family: 'Poppins-SemiBold';
 font-size: 18px;
 line-height: 27px;
 /* identical to box height */
 letter-spacing: 3px;
 color: #AA6340;
+text-transform: uppercase;
 }
 .infra-title{
     color: #3C6E71 !important;
 }
 .se-all{
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
+font-family: 'Poppins-Regular';
 font-size: 24px;
 line-height: 36px;
 /* identical to box height */
@@ -313,18 +287,14 @@ color: rgba(29, 38, 37, 0.579422);
     padding-bottom:90px;
 }
 .our-process h4{
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
+font-family: 'Poppins-Regular';
 font-size: 36px;
 line-height: 44px;
 /* identical to box height, or 122% */
 color: #FFFFFF;
 }
 .our-process-content p{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
+    font-family: 'Poppins-Regular';
     font-size: 20px;
     line-height: 30px;
     color: #FFFFFF;
@@ -343,9 +313,7 @@ color: #FFFFFF;
     box-sizing: border-box;
 }
 .process-graphic p{
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
+font-family: 'Poppins-Regular';
 font-size: 20px;
 line-height: 30px;
 color: #1D2625  !important;
@@ -359,9 +327,7 @@ color: #1D2625  !important;
     background-size: cover;
 }
 .cta-text{
-font-family: Poppins;
-font-style: normal;
-font-weight: 500;
+font-family: 'Poppins-Medium';
 font-size: 44px;
 line-height: 66px;
 text-align: center;
@@ -383,9 +349,7 @@ color: #FFFFFF;
 }
 .contact-details p{
 width: 100%;  
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
+font-family: 'Poppins-Regular';
 font-size: 20px;
 line-height: 33px;
 /* or 165% */
@@ -394,9 +358,7 @@ mix-blend-mode: normal;
 opacity: 0.79;
 }
 .mail{
-font-family: Poppins;
-font-style: normal;
-font-weight: 500;
+font-family: 'Poppins-Medium';
 font-size: 20px;
 line-height: 30px;
 /* identical to box height */
@@ -427,9 +389,7 @@ textarea#message {
     align-items: flex-start;
     display: flex;
     color:#fff;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
+    font-family: 'Poppins-Regular';
     font-size: 15px !important;
     line-height: 22px;
 }
@@ -446,18 +406,116 @@ textarea#message {
     align-content: center;
     
 }
+/* service section */
+.service-content h5{
+font-family: 'Qartella-Heavy';
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+text-align: center;
+color: #1D2625;
+}
+.service-content p{
+    width: 100%;
+}
+.service-content p{
+font-family: 'Qartella-Regular';
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #1D2625;
+}
+.service-col{
+    height: 320px;
 
+}
+.serice-btn-text{
+    font-family: 'Qartella-ExtraBold';
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+.service-icon img {
+    height: 79.59px;
+}
+.service-btn-1{
+padding: 10px 20px;
+color:#3C6E71;
+border: 2px solid #3C6E71;
+box-sizing: border-box;
+border-radius: 4px;
+background:#fff;
+}
+.service-btn-2{
+padding: 10px 20px;
+border: 2px solid #956A1F;
+color:#956A1F;
+box-sizing: border-box;
+border-radius: 4px;
+background:#fff;
+}
+.service-btn-3{
+    padding: 10px 20px;
+    border: 2px solid #69634E;
+    color:#69634E;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background:#fff;
+    }
+.service-btn-4{
+        padding: 10px 20px;
+        border: 2px solid #AA6340;
+        color:#AA6340;
+        box-sizing: border-box;
+        border-radius: 4px;
+        background:#fff;
+}
+
+
+/* end service */
 
 /* mobile media queries */
 @media (max-width:768px) {
     .header-area {
         padding: 35px;
     }
+    .navbar-collapse{
+        background:#3b595e;
+    }    
+    .navbar-dark .navbar-toggler,.navbar-dark .navbar-toggler:focus{
+        box-shadow: none;
+        border:none;
+    }
+    .navbar {
+        padding:10px;
+        height: 100px;
+    }
+    a.nav-link{
+        color:#fff !important;
+        text-align: left;
+    }
+    a.contact-btn.nav-link {
+        text-align: center;
+    }
+    
+    a.nav-link.active {
+        color: #3b595d !important;
+    }
+    div#responsive-navbar-nav {
+        position: relative;
+        top: 45px;
+        padding: 20px 0px;
+    }
     div#Mission {
         border-bottom: 0px;
     }
+    .mission-section {
+        width: 100%;
+        max-width: 100%;
+        position: unset;
+    }
     .meet-barbarian {
-        padding-top: 284px;
+        padding-top: 50px;
     }
     .mission-title {
         text-align: center;
@@ -465,12 +523,12 @@ textarea#message {
         max-width: 100%;
     }
     .profile-section {
-        margin: 40px;
+        margin: 25px;
     }
     .profile-col {
         margin: 10px 10px;
     }
-    .border-end{
+    div#we-do .border-end{
         border-right: 0px !important;
         border-bottom: 1px solid #979797;
     }
