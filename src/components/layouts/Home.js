@@ -4,6 +4,7 @@ import SiteNavbar from '../sections/SiteNavbar';
 import Header from '../sections/Header';
 import OurMission from '../sections/OurMission';
 import MeetBarbarian from '../sections/MeetBarbarian';
+import Services from '../sections/Services';
 import WeDo from '../sections/WeDo';
 import OurProcess from '../sections/OurProcess';
 import CTA from '../sections/CTA';
@@ -24,6 +25,10 @@ const Home = () => {
              {/* Meet Barbarian Section */}
              <div className="container-fluid" id="meet-barbarian">
                 <MeetBarbarian/>
+             </div>
+             {/* Services */}
+             <div className="container-fluid" id="our-services">
+                <Services/>
              </div>
              {/* What we Do Section */}
              <div className="container-fluid" id="we-do">

@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 const SiteNavbar = () => {
     return (
-              <Navbar collapseOnSelect expand="lg"  variant="dark">
+              <Navbar collapseOnSelect expand="lg"   variant="dark">
                 <Container>
                     <Navbar.Brand href="#home"> 
                         <div className="brand">
