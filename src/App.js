@@ -6,7 +6,7 @@ import Home from './components/layouts/Home';
 function App() {
   return (
     <div className="App">
-       <Home/>
+      <Home />
     </div>
   );
 }
