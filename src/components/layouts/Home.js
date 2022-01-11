@@ -66,8 +66,10 @@ const Home = () => {
                                 <Header mainSection={attributes.mainSection} />
                             </div>
                             {/* Our Mission cection */}
-                            <div className="overlay-bg mt-2"></div>
-                            <OurMission missionSection={attributes.missionSection} />
+                            <div className="overlay-bg mt-3">      
+                                <OurMission missionSection={attributes.missionSection} />
+                            </div>
+                      
                             {/* Meet Barbarian Section */}
                             <div className="container-fluid" id="meet-barbarian">
                                 <MeetBarbarian />

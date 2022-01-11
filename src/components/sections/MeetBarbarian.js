@@ -8,50 +8,19 @@ const MeetBarbarian = () => {
             </div>
             <div className="profile-section d-inline-block justify-content-center">
                 <div className="row">
-                    <div className="col-md-3 col-6">
-                        <div className="profile-col">
-
-                        </div>
-                    </div>
-                    <div className="col-md-3 col-6">
-                        <div className="profile-col">
-
-                        </div>
-                    </div>
-                    <div className="col-md-3 col-6">
-                        <div className="profile-col">
-
-                        </div>
-                    </div>
-                    <div className="col-md-3 col-6">
-                        <div className="profile-col">
-
-                        </div>
-                    </div>
+                    <div className="col-md-3 profile-col"></div>
+                    <div className="col-md-3 profile-col"></div>
+                    <div className="col-md-3 profile-col"></div>
+                    <div className="col-md-3 profile-col"></div>
                 </div>
                 <div className="row">
-                    <div className="col-md-3 col-6">
-                        <div className="profile-col">
-
-                        </div>
-                    </div>
-                    <div className="col-md-3 col-6">
-                        <div className="profile-col">
-
-                        </div>
-                    </div>
-                    <div className="col-md-3 col-6">
-                        <div className="profile-col">
-
-                        </div>
-                    </div>
-                    <div className="col-md-3 col-6">
-                        <div className="profile-col">
-
-                        </div>
-                    </div>
+                    <div className="col-md-3 profile-col"></div>
+                    <div className="col-md-3 profile-col"></div>
+                    <div className="col-md-3 profile-col"></div>
+                    <div className="col-md-3 profile-col"></div>
                 </div>
             </div>
+            <a href="#"><p className='se-all  barbarian-see'>See All</p></a>
         </div>
     )
 }

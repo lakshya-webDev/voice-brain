@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+
 
 const Header = ({ mainSection }) => {
     return (
@@ -16,6 +17,9 @@ const Header = ({ mainSection }) => {
                             <p>{mainSection.description}</p>
                         </div>
                         <button className="header-btn"></button>
+                        <div className='d-flex justify-content-center'>
+                        <button className="arrow-btn"></button>
+                        </div>
                     </div>
                 </div>
                 <div className="col-md-5"></div>

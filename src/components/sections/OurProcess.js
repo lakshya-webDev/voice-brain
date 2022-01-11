@@ -8,6 +8,7 @@ const OurProcess = ({ ourProcessSection }) => {
                 <div className='our-process-content mt-5'>
                     <p className='text-start'>{ourProcessSection.description}</p>
                 </div>
+                <a href="#"><p className='see-process'>See full process &#62;</p></a>
             </div>
         </div>
     )

@@ -18,10 +18,13 @@ const WeDo = ({ whatWeDoSection }) => {
                                         <div className="wedo-title">
                                             <h4 className="text-start mobile-text">{info.technology_name}</h4>
                                         </div>
+                                        <div className="learn-more  justify-content-start">
+                                        <a href="#" className="learn-btn">Learn More</a>
+                                        </div>
                                     </div>
                                 </div>
                                 <div className="col-md-9 wedo-col ">
-                                    <div className="wedo-container p-3 ">
+                                    <div className="wedo-content-container p-3 ">
                                         <div className="we-do-title">
                                             <h5 className='text-start'>{info.technology_title}</h5>
                                         </div>
@@ -34,7 +37,7 @@ const WeDo = ({ whatWeDoSection }) => {
                         </div>
                     )
                 })}
-                <p className='se-all text-end'>See All</p>
+                <a href="#"><p className='se-all mb-5 '>See All</p></a>
 
             </div>
 
