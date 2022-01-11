@@ -186,14 +186,23 @@ color: #1D2625;
 #meet-barbarian{
 background:#F1EDEB;
 }
+.profile-section {
+    width: 100%;
+}
+.profile-col:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
 .profile-col{
-    height: 168px;
-    width: 168px !important;
+    width: 100% !important;
     background: #69634E;
-    margin: 10px 5px;
+    margin: 10px 0;
+    min-height: 168px;
+    padding: 16px;
 }
 .profile-section{
-    margin: 80px;
+    padding: 80px 40px;
 }
 /* meet abrbarian css end */
 /* what we do section css */
@@ -377,7 +386,9 @@ textarea#message {
 .form-control:focus{
     border-bottom:1px solid #956A1F !important;
     box-shadow: none !important;
-   
+}
+textarea#message:focus{
+    border:1px solid #956A1F !important ;
 }
 .submit-btn{
     background:#956A1F;
@@ -471,11 +482,57 @@ background:#fff;
         background:#fff;
 }
 
+/* loader css */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+  .loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #0b0b0b;
+    display: grid;
+    place-items: center;
+  }
+
+  .loader {
+    border: 16px solid #e3e3e3;
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    animation: spin 1s linear infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
 
 /* end service */
 
 /* mobile media queries */
 @media (max-width:768px) {
+    #our-services .mobile-text,#our-process .mobile-text,#we-do .mobile-text,#meet-barbarian .mobile-text,#contact .mobile-text,#our-process .mobile-text{
+     text-align: center !important;
+    }
+    .col-md-3.col-12.mission-col.border-end {
+    border-right: unset !important;
+    }
+    .profile-section {
+    padding: 40px 20px;
+    }
     .header-area {
         padding: 35px;
     }
@@ -523,11 +580,11 @@ background:#fff;
         max-width: 100%;
     }
     .profile-section {
-        margin: 25px;
+        margin:25px 0px;
     }
-    .profile-col {
+    /* .profile-col {
         margin: 10px 10px;
-    }
+    } */
     div#we-do .border-end{
         border-right: 0px !important;
         border-bottom: 1px solid #979797;

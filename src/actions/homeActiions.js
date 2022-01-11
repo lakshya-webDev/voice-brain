@@ -8,18 +8,16 @@ import axios from 'axios';
 
 
 
-export const home = (email, password) => async (dispatch) => {
+export const home = () => async (dispatch) => {
     try {
         dispatch({ type: HOME_DATA_REQUEST });
 
         // const config = { headers: { 'Content-Type': 'application/json' } };
-        // const { data } = await axios.post(
-        //     'http://localhost:4000/api/v1/login',
-        //     { email, password },
-        //     config
-        // );
-        // let token = data.token;
-
+        const { data } = await axios.get(
+            'http://localhost:1337/api/homepages?populate[mainSection]=*&populate[missionSection][populate]=mission,ethos&populate[barbarians][populate]=image&populate[serviceSection][populate][serviceInfo]=*&populate[whatWeDoSection][populate]=information&populate[ourProcessSection]=*&populate[tageLineSection]=*'
+            // config
+        );
+        console.log("data", data);
         dispatch({
             type: HOME_DATA_SUCCESS,
             payload: data

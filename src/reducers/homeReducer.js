@@ -14,7 +14,7 @@ export const homeReducer = (state = { homeData: [] }, action) => {
         case HOME_DATA_SUCCESS:
             return {
                 loading: false,
-                homwData: action.payload,
+                homeData: action.payload,
             };
         case HOME_DATA_FAIL:
             return {
