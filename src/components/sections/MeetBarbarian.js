@@ -47,7 +47,6 @@ const MeetBarbarian = () => {
                     </div>
                     <div className="col-md-3 col-6">
                         <div className="profile-col">
-
                         </div>
                     </div>
                 </div>

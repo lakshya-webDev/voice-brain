@@ -17,23 +17,9 @@ import Loader from './Loader';
 const Home = () => {
     const dispatch = useDispatch();
     const { loading, homeData } = useSelector(state => state.home)
-    // for (const key in homeData.data) {
-    // if (home) {
-    //     // console.log("homeData.data[key].attributes",);
-    //     Object.keys(homeData.data).forEach((key, index) => {
-    //         console.log("homeData.data[key]", homeData.data[key]);
-    //     })
-
-    // }
-    // }
-
-    // }
 
 
-    // for (const ele in homeData.data) {
-    //     console.log("Object.keys(homeData.data)", ele);
-    //     console.log("homesdfdsf", homeData.data[ele])
-    // }
+
 
     if (!loading) {
 
@@ -44,13 +30,7 @@ const Home = () => {
 
 
     }, [dispatch])
-    // {
-    //     loading ? (<div>loading</div>) : (<Fragment>
-    //         {homeData?.data?.map(({ attributes }) => {
 
-    //         })}
-    //     </Fragment>)
-    // }
 
     return (
         <Fragment>
