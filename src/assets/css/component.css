@@ -60,7 +60,6 @@ text-align: left;
 font-family: 'Poppins-SemiBold';
 font-size: 50px;
 line-height: 76px;
-letter-spacing: 1px;
 /* or 152% */
 color: #FFFFFF;
 text-align: left;
@@ -73,7 +72,6 @@ text-align: left;
 font-family: 'Poppins-Medium';
 font-size: 18px;
 line-height: 28px;
-letter-spacing: 0.8px;
 /* or 156% */
 color: #FFFFFF;
 mix-blend-mode: normal;
@@ -118,7 +116,7 @@ border: 1px solid #FFFFFF;
 width: 100%;
 max-width: 904px;
 position: absolute;
-margin-top: -130px;
+margin-top: 35px;
 background: #FFFFFF;
 box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.195202);
 border-radius: 28px;
@@ -186,23 +184,14 @@ color: #1D2625;
 #meet-barbarian{
 background:#F1EDEB;
 }
-.profile-section {
-    width: 100%;
-}
-.profile-col:before {
-    content: "";
-    display: block;
-    padding-top: 100%;
-}
 .profile-col{
-    width: 100% !important;
+    height: 168px;
+    width: 168px !important;
     background: #69634E;
-    margin: 10px 0;
-    min-height: 168px;
-    padding: 16px;
+    margin: 10px 5px;
 }
 .profile-section{
-    padding: 80px 40px;
+    margin: 80px;
 }
 /* meet abrbarian css end */
 /* what we do section css */
@@ -281,7 +270,8 @@ font-family: 'Poppins-Regular';
 font-size: 24px;
 line-height: 36px;
 /* identical to box height */
-color: rgba(29, 38, 37, 0.579422);
+color: #1D2625;
+text-align: right;
 }
 /* what we do css end */
 /* Our Process css */
@@ -381,7 +371,7 @@ color: #1D2625 !important;
 }
 textarea#message {
     border: 1px solid #1D2625 !important;
-    border-radius:12px !important;
+    border-radius:18px !important;
 }
 .form-control:focus{
     border-bottom:1px solid #956A1F !important;
@@ -394,8 +384,8 @@ textarea#message:focus{
     background:#956A1F;
     border-radius: 28px !important;
     width: 124px;
-    padding: 15px 35px !important;
-    height: 56px;
+    padding: 10px 34px !important;
+    height: 40px;
     border:none;
     align-items: flex-start;
     display: flex;
@@ -501,11 +491,11 @@ body {
   }
 
   .loader {
-    border: 16px solid #e3e3e3;
-    border-top: 16px solid #3498db;
+    border: 8px solid #e3e3e3;
+    border-top: 8px solid #AA6340;
     border-radius: 50%;
-    width: 140px;
-    height: 140px;
+    width: 70px;
+    height: 70px;
     animation: spin 1s linear infinite;
   }
 
@@ -519,33 +509,157 @@ body {
     }
   }
 
-
+.arrow-btn{
+    display:none;
+}
 /* end service */
-
+a{
+    text-decoration: none !important;
+}
+.barbarian-see{
+    display: none;
+}
+.learn-more{
+    display: none;
+}
+.see-process{
+    font-family: 'Poppins-Regular';
+    font-size: 22px;
+line-height: 33px;
+/* identical to box height */
+color: #1D2625;
+display: none;
+}
+.wedo-section {
+    margin-top:53px !important;
+}
 /* mobile media queries */
 @media (max-width:768px) {
+    #our-process{
+        max-height: 576px;
+    }
+    .see-process{
+        text-align: left;
+        display: block;
+    }
+    .se-all{
+     text-align: left !important;
+     font-size: 28px;
+     line-height: 42px;
+    }
+    .barbarian-see{
+        display: block;
+    }
+    .arrow-btn{
+        display: block;
+        height: 80px;
+        width: 80px;
+        background: #979797;
+        border: none;
+        border-radius: 50%;
+        mix-blend-mode: normal;
+        opacity: 0.4;
+        box-shadow: 0px 8px 16px rgb(0 0 0 / 91%);    
+    }
+    .arrow-btn:before{
+        content:url(../images/Arrow.svg);
+    }
+    .header-btn{
+        display: none;
+    }
+    button.navbar-toggler{
+        position: absolute !important;
+        bottom: -70px !important;
+        right: 0 !important;
+    }
+    .header-content{
+        padding:30px;
+    }
+    .header-tagline h5,.header-heading h4,.header-para p{
+        text-align: center;
+    }
+    .header-para p{
+        padding: 20px 0px;
+    }
+    .mission-title{
+        font-size: 28px;
+        line-height: 42px;
+    }
+    .header-heading h4{
+        font-size: 35px;
+        line-height: 52px;
+    }
+    .mobile-logo{
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .overlay-bg{
+        min-height:450px;
+    }
+    .navbar-dark .navbar-toggler-icon {
+        background-image: url(../images/menu.png)  !important;
+    }
     #our-services .mobile-text,#our-process .mobile-text,#we-do .mobile-text,#meet-barbarian .mobile-text,#contact .mobile-text,#our-process .mobile-text{
-     text-align: center !important;
+    font-size:28px;
     }
     .col-md-3.col-12.mission-col.border-end {
+    border-bottom: 1px solid #979797 !important;
     border-right: unset !important;
     }
     .profile-section {
     padding: 40px 20px;
     }
     .header-area {
-        padding: 35px;
+        padding: 40px;
     }
     .navbar-collapse{
         background:#3b595e;
-    }    
+    } 
+    .wedo-content-container{
+        display:none;
+    } 
+    .wedo-description p{
+        font-size: 16px;
+        line-height: 26px;
+    } 
+    .learn-more{
+        display: block;
+        display: flex;
+    }
+    .learn-btn{ 
+        font-family: 'Poppins-Regular';
+        width: 120px;
+        height: 32px;
+        font-size: 16px;
+        line-height: 24px;
+        background: #956A1F;
+        color: #fff;
+        padding: 5px 10px;
+        border-radius: 16px;
+    } 
+    .our-process-content p,.contact-details p{
+        font-size: 16px;
+        line-height: 25px;
+    }
     .navbar-dark .navbar-toggler,.navbar-dark .navbar-toggler:focus{
         box-shadow: none;
         border:none;
     }
+    .mt-5 {
+        margin-top: 1rem!important;
+    }
+    #meet-barbarian {
+    padding: 100px 59px 30px 59px;
+   }
+   #we-do .border-end{
+       border:unset !important;
+   }
+    #our-services,#we-do,#our-process,#contact {
+    padding: 30px 59px 30px 59px;
+   }
     .navbar {
         padding:10px;
-        height: 100px;
+        height: 104px;
     }
     a.nav-link{
         color:#fff !important;
@@ -554,44 +668,65 @@ body {
     a.contact-btn.nav-link {
         text-align: center;
     }
-    
+   
     a.nav-link.active {
         color: #3b595d !important;
     }
     div#responsive-navbar-nav {
         position: relative;
-        top: 45px;
+        top: 90px;
         padding: 20px 0px;
     }
     div#Mission {
-        border-bottom: 0px;
+        border-right:unset !important;
+        margin-top:34px;
+    }
+    .mission-row {
+        margin: 35px !important;
+        padding: 0px !important;
+    }
+    .mission-content {
+        width: 100%;
+        max-width: 100%;
     }
     .mission-section {
         width: 100%;
-        max-width: 100%;
-        position: unset;
+        max-width: 312px;
+        position: relative;
+        margin-top: -40px;
+        top: 65px;
     }
     .meet-barbarian {
-        padding-top: 50px;
+        margin-top:0px;
+        padding-top:0px;
     }
-    .mission-title {
+    .meet-barbarian h4{
+        max-width: 255px;
+    }
+    .profile-col {
+    height: 185px;
+    width: 185px !important;
+    }
+    .mission-title h4 {
         text-align: center;
         width: 100% !important;
         max-width: 100%;
     }
     .profile-section {
-        margin:25px 0px;
+        margin: 25px;
+        max-height: 625px;
+        overflow: hidden;
     }
-    /* .profile-col {
+    .profile-col {
         margin: 10px 10px;
-    } */
+    }
     div#we-do .border-end{
-        border-right: 0px !important;
+        border-right: unset !important;
         border-bottom: 1px solid #979797;
     }
     .cta-text {
-        font-size: 24px;
-        line-height: 33px;
+        font-size: 40px;
+        line-height: 60px;
     }
     .contact-section {
        padding: 50px 20px;

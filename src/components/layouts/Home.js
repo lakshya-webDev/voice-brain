@@ -20,7 +20,6 @@ const Home = () => {
 
 
 
-
     if (!loading) {
 
         console.log("!loading && homeData?.data ? [0]", homeData?.data?.[0]);
@@ -50,7 +49,7 @@ const Home = () => {
                             <OurMission missionSection={attributes.missionSection} />
                             {/* Meet Barbarian Section */}
                             <div className="container-fluid" id="meet-barbarian">
-                                <MeetBarbarian />
+                                <MeetBarbarian barbarians={attributes.barbarians} />
                             </div>
                             {/* Services */}
                             <div className="container-fluid" id="our-services">
