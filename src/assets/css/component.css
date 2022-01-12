@@ -187,8 +187,11 @@ background:#F1EDEB;
 .profile-col{
     height: 168px;
     width: 168px !important;
-    background: #69634E;
     margin: 10px 5px;
+}
+.profile-col img{
+    height:168px;
+    width:168px;
 }
 .profile-section{
     margin: 80px;
@@ -533,8 +536,24 @@ display: none;
 .wedo-section {
     margin-top:53px !important;
 }
+.profile-section-mobile{
+    display:none !important;
+}
+.profile-section-desktop{
+    display: block !important;
+}
 /* mobile media queries */
 @media (max-width:768px) {
+    .profile-section-mobile{
+        display:block !important;
+    }
+    .profile-section-desktop{
+        display: none !important;
+    }
+    .mobile-profile-seeall {
+        padding: 0px !important;
+        margin-top: -130px;
+    }
     #our-process{
         max-height: 576px;
     }
@@ -714,9 +733,10 @@ display: none;
     }
     .profile-section {
         margin: 25px;
-        max-height: 625px;
+        /* max-height: 625px; */
         overflow: hidden;
     }
+    
     .profile-col {
         margin: 10px 10px;
     }
